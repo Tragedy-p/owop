@@ -1,11 +1,11 @@
-// ==UserScript==
-// @name         NewChat for OWOP
-// @author       Anonygold
-// @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvwAADr8BOAVTJAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAAmlJREFUaEPtmUGu00AMhnsl1pyBG7DjHuzZIcEFEEsOAhdgi4RYwqYnCP3H/Uaun2eqJq3kShnpe5nxeJzPSd6qh2VZDqehP6fp0taRgqP52vQ0+fvvx/Lt6weC5ZGrnM9rC7x/97Zdxe9fP0uCH66tgfMnciH/+dPHkvgmmnwzdw0gT1I1fBNylnhvYK38m1evN5PVHUETcpZ4bwB5iuo78zcBX4yYcj0+PyPmC18PRjG5ylniL/4HSFRRf9DHfS5r8v254/F4AfHsjK8HxHTVUycm5CzxFw0ICuka8UVYCwT9uVkD8Qz1JOpliWlOTMhZ4mkDgmRdI+Rwc13Br2cNMGft68EoJuQscUbfuIVYHBAbkZ3J6s+Qs6nb6BvZDSsxbYCkL9//DOGJxc9D+Cf6SKYNKCETB4qUbqA6m96AoFD2FmC0z9kt7A1QKBOE0T5nt3C1geqsfgMUyJ5sJOZx9h7sDXixETGPs/fgagPVWf0GBEX80+UJZ/MRMf8W9gaEl0Eim4+I+bdwtYHqrH4DFBg9ychojzpr2RuIMn7tGe1RZy1XG6jOXd+AZ7YnOL+VvYFMTsz2BOe3MmxAZAcqgaecTd1G33gW5GzqNvqGPqNH40XWImdTt9GC3CB7dfcmCoFvVGQ5Qs6mbqMFkc/+AcVsT8T9LF8xEYUgNhBzWcvZ1G30w9lNYbYn4n6Wr5jwUp6nb0CQE3P9Ws6mbqP/xOQPPgqEIMsZofyLn5jOo/0KQhOVkaNc5WzqNtpm9SaQ11zOpm6jJ9FERZCPDbQA3xdNVAQ/XOXeG3CB8gTfNi4WTzDOvofDf0o2T46RsEJfAAAAAElFTkSuQmCC
-// @match        https://ourworldofpixels.com/*
-// @version      v9.1
-// @grant        none
-// ==/UserScript==
+ ==UserScript==
+ @name         NewChat for OWOP
+ @author       Anonygold
+ @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvwAADr8BOAVTJAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAAmlJREFUaEPtmUGu00AMhnsl1pyBG7DjHuzZIcEFEEsOAhdgi4RYwqYnCP3H/Uaun2eqJq3kShnpe5nxeJzPSd6qh2VZDqehP6fp0taRgqP52vQ0+fvvx/Lt6weC5ZGrnM9rC7x/97Zdxe9fP0uCH66tgfMnciH/+dPHkvgmmnwzdw0gT1I1fBNylnhvYK38m1evN5PVHUETcpZ4bwB5iuo78zcBX4yYcj0+PyPmC18PRjG5ylniL/4HSFRRf9DHfS5r8v254/F4AfHsjK8HxHTVUycm5CzxFw0ICuka8UVYCwT9uVkD8Qz1JOpliWlOTMhZ4mkDgmRdI+Rwc13Br2cNMGft68EoJuQscUbfuIVYHBAbkZ3J6s+Qs6nb6BvZDSsxbYCkL9//DOGJxc9D+Cf6SKYNKCETB4qUbqA6m96AoFD2FmC0z9kt7A1QKBOE0T5nt3C1geqsfgMUyJ5sJOZx9h7sDXixETGPs/fgagPVWf0GBEX80+UJZ/MRMf8W9gaEl0Eim4+I+bdwtYHqrH4DFBg9ychojzpr2RuIMn7tGe1RZy1XG6jOXd+AZ7YnOL+VvYFMTsz2BOe3MmxAZAcqgaecTd1G33gW5GzqNvqGPqNH40XWImdTt9GC3CB7dfcmCoFvVGQ5Qs6mbqMFkc/+AcVsT8T9LF8xEYUgNhBzWcvZ1G30w9lNYbYn4n6Wr5jwUp6nb0CQE3P9Ws6mbqP/xOQPPgqEIMsZofyLn5jOo/0KQhOVkaNc5WzqNtpm9SaQ11zOpm6jJ9FERZCPDbQA3xdNVAQ/XOXeG3CB8gTfNi4WTzDOvofDf0o2T46RsEJfAAAAAElFTkSuQmCC
+ @match        https://ourworldofpixels.com/*
+ @version      v9.1
+ @grant        none
+ ==/UserScript==
 
 (function () {
 
